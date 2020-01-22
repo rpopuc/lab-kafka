@@ -1,0 +1,20 @@
+kafkahq:
+    connections:
+        dev:
+            properties:
+                bootstrap.servers: "kafka:9092"
+                # security.protocol: SSL
+                # ssl.truststore.location: {{path}}/avnadmin.truststore.jks
+                # ssl.truststore.password: {{password}}
+                # ssl.keystore.type: "PKCS12"
+                # ssl.keystore.location: {{path}}/avnadmin.keystore.p12
+                # ssl.keystore.password: {{password}}
+                # ssl.key.password: {{password}}
+            # schema-registry:
+                # url: "http://kafka:9092"
+                # basic-auth-username: avnadmin
+                # basic-auth-password: {{password}}
+            # connect:
+                # url: "http://kafka:9092"
+                # basic-auth-username: avnadmin
+                # basic-auth-password: {{password}}
